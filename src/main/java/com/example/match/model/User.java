@@ -112,7 +112,7 @@ public class User {
 
     User user = (User) o;
 
-    return this.uid.equals(user.getUid);
+    return this.uid.equals(user.getUid());
 
   }
 
