@@ -16,7 +16,7 @@ function getTime() {
 }
 
 function setTime(time) {
-    var val = this.responseText.split("\"")[0].split("T");
+    var val = time.split("\"")[0].split("T");
     document.getElementById("time").innerHTML = val[0] + " " + val[1];
 }
 
